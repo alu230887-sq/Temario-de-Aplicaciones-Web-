@@ -29,9 +29,29 @@ Este propósito tiene como objetivo que los estudiantes comprendan las bases te�
 ---
 
 Este propósito sienta las bases necesarias para abordar el desarrollo práctico y el despliegue de aplicaciones web en los siguientes propósitos de aprendizaje.
-1.-Introducción al desarrollo web  
-Historia y evolución del desarrollo web  
-Tipos de aplicaciones web (estáticas, dinámicas, SPA, PWA)  
+1.-Introducción al desarrollo web # 1. Introducción al desarrollo web
+
+## Historia y evolución del desarrollo web
+
+El desarrollo web ha evolucionado significativamente desde la creación de la World Wide Web en 1991 por Tim Berners-Lee. Inicialmente, las páginas web eran simples documentos HTML estáticos que mostraban texto y enlaces. Con el tiempo, la web incorporó imágenes, hojas de estilo (CSS) y scripts (JavaScript), permitiendo interfaces más dinámicas e interactivas. La llegada de tecnologías como AJAX, frameworks de JavaScript, y el desarrollo móvil transformó la web en una plataforma rica y versátil para aplicaciones empresariales, redes sociales y servicios en la nube.
+
+## Tipos de aplicaciones web
+
+### Aplicaciones web estáticas
+Son páginas cuyo contenido no cambia en respuesta a las acciones del usuario. Se generan una vez y se sirven tal cual al navegador. Ejemplo: páginas informativas sin interacción, portafolios personales.
+
+### Aplicaciones web dinámicas
+El contenido se genera o actualiza en el servidor antes de enviarse al navegador, normalmente en función de la interacción del usuario o datos almacenados en una base de datos. Ejemplo: blogs, tiendas en línea, foros.
+
+### SPA (Single Page Application)
+Son aplicaciones que cargan una sola página HTML y actualizan el contenido dinámicamente usando JavaScript, sin recargar la página completa. Permiten experiencias rápidas y fluidas similares a las aplicaciones de escritorio. Ejemplo: Gmail, Trello.
+
+### PWA (Progressive Web App)
+Son aplicaciones web que pueden instalarse en dispositivos, funcionan offline, y ofrecen funcionalidades como notificaciones push y acceso al hardware, brindando una experiencia similar a las apps nativas. Ejemplo: Twitter Lite, Spotify Web.
+
+---
+
+Esta sección permite comprender el contexto histórico y las principales categorías de aplicaciones web que se desarrollan actualmente.   
 2.Arquitectura de aplicaciones web  
 Cliente-Servidor   
 Arquitectura de tres capas (presentación, lógica, datos)  
