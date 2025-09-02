@@ -52,10 +52,33 @@ Son aplicaciones web que pueden instalarse en dispositivos, funcionan offline, y
 ---
 
 Esta sección permite comprender el contexto histórico y las principales categorías de aplicaciones web que se desarrollan actualmente.   
-2.Arquitectura de aplicaciones web  
-Cliente-Servidor   
-Arquitectura de tres capas (presentación, lógica, datos)  
-REST y API-first design  
+# 2. Arquitectura de aplicaciones web
+
+## Cliente-Servidor
+
+La arquitectura cliente-servidor es la base del funcionamiento de las aplicaciones web. El **cliente** (normalmente el navegador web) realiza solicitudes al **servidor** (donde reside la lógica de la aplicación y los datos). El servidor procesa la solicitud, accede a los datos necesarios y envía una respuesta al cliente. Este modelo permite separar la interfaz de usuario de la lógica y el almacenamiento de datos.
+
+**Ejemplo:** Cuando un usuario llena un formulario y lo envía, el navegador (cliente) envía los datos al servidor, que los procesa y responde con una página nueva, un mensaje o una actualización.
+
+## Arquitectura de tres capas (presentación, lógica, datos)
+
+La arquitectura de tres capas organiza una aplicación web en tres niveles independientes:
+
+1. **Capa de presentación:** Es la interfaz de usuario (UI). Incluye todo lo que el usuario ve y con lo que interactúa (HTML, CSS, JavaScript).
+2. **Capa de lógica (o negocio):** Procesa la información, realiza cálculos y gestiona las reglas de negocio. Normalmente está desarrollada en lenguajes como JavaScript (Node.js), PHP, Python, etc.
+3. **Capa de datos:** Es donde se almacenan y gestionan los datos de la aplicación, generalmente en bases de datos como MySQL, PostgreSQL o MongoDB.
+
+Esta separación facilita el mantenimiento, la escalabilidad y la reutilización de componentes.
+
+## REST y API-first design
+
+- **REST (Representational State Transfer):** Es un estilo de arquitectura para el diseño de servicios web (APIs). Utiliza los métodos HTTP (GET, POST, PUT, DELETE) para operar sobre recursos identificados por URLs. REST promueve el uso de interfaces simples y estandarizadas, facilitando la interoperabilidad entre sistemas.
+
+- **API-first design:** Es un enfoque que prioriza el diseño y documentación de la API antes de implementar la lógica de negocio o la interfaz. Esto permite que diferentes equipos (frontend, backend, móviles) trabajen en paralelo y asegura que la API sea clara, consistente y bien documentada.
+
+---
+
+Esta sección explica las principales arquitecturas y enfoques para diseñar aplicaciones web modernas, asegurando una base sólida para su desarrollo y mantenimiento.
 3. -Lenguajes y tecnologías fundamentales  
 HTML, CSS, JavaScript, PHP, MySQL  
 4.-Control de versiones  
